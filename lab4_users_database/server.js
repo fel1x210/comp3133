@@ -10,7 +10,7 @@ app.use(express.json());
 
 // MongoDB Atlas connection string
 // Replace <username>, <password>, and <cluster-url> with your MongoDB Atlas credentials
-const MONGO_URI = 'mongodb+srv://luunguyenminhtriet021025_db_user:felixdamagic021025%21@cluster0.nlznexw.mongodb.net/lab4_users_database?retryWrites=true&w=majority&appName=Cluster0';
+const MONGO_URI = 'mongodb+srv://luunguyenminhtriet021025_db_user:felixdamagic021025!@cluster0.nlznexw.mongodb.net/lab4_users_database?retryWrites=true&w=majority&appName=Cluster0';
 
 // Connect to MongoDB Atlas
 mongoose.connect(MONGO_URI)
